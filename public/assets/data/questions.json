@@ -1,0 +1,160 @@
+{
+    "title": "Qual o seu espectro político?",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Como você lida com críticas?",
+            "options": [
+                {"id": 1, "name": "Rebato com argumentos", "alias": "B"},
+                {"id": 2, "name": "Transformo em discurso político", "alias": "D"},
+                {"id": 3, "name": "Ignoro e sigo em frente", "alias": "A"},
+                {"id": 4, "name": "Uso ironia e humor", "alias": "C"}
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Qual seu estilo de liderança?",
+            "options": [
+                {"id": 1, "name": "Autoritário e direto", "alias": "C"},
+                {"id": 2, "name": "Conciliador e diplomático", "alias": "D"},
+                {"id": 3, "name": "Técnico e analítico", "alias": "B"},
+                {"id": 4, "name": "Carismático e popular", "alias": "A"}
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Como você se comunica com o público?",
+            "options": [
+                {"id": 1, "name": "Em discursos inflamados", "alias": "C"},
+                {"id": 2, "name": "Nas redes sociais", "alias": "A"},
+                {"id": 3, "name": "Por meio de decisões e ações", "alias": "D"},
+                {"id": 4, "name": "Por entrevistas e debates", "alias": "B"}
+            ]
+        },
+        {
+            "id": 4,
+            "question": "O que você considera mais importante na política?",
+            "options": [
+                {"id": 1, "name": "Negociar para governar", "alias": "D"},
+                {"id": 2, "name": "Manter o apoio popular", "alias": "A"},
+                {"id": 3, "name": "Seguir a Constituição e as leis", "alias": "B"},
+                {"id": 4, "name": "Combater adversários", "alias": "C"}
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Como você lidaria com um escândalo envolvendo seu governo?",
+            "options": [
+                {"id": 1, "name": "Demitiria envolvidos e seguiria governando", "alias": "D"},
+                {"id": 2, "name": "Negaria tudo", "alias": "A"},
+                {"id": 3, "name": "Abriria uma investigação oficial", "alias": "B"},
+                {"id": 4, "name": "Acusaria a oposição de conspiração", "alias": "C"}
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Qual sua visão sobre economia?",
+            "options": [
+                {"id": 1, "name": "Acredito em equilíbrio entre mercado e Estado", "alias": "D"},
+                {"id": 2, "name": "Quero estatizar setores estratégicos", "alias": "C"},
+                {"id": 3, "name": "Apoio subsídios e programas sociais", "alias": "A"},
+                {"id": 4, "name": "Defendo reformas estruturais e privatizações", "alias": "B"}
+            ]
+        },
+        {
+            "id": 7,
+            "question": "O que você acha da imprensa?",
+            "options": [
+                {"id": 1, "name": "É essencial para a democracia", "alias": "D"},
+                {"id": 2, "name": "Um mal necessário", "alias": "B"},
+                {"id": 3, "name": "Precisa ser respeitada", "alias": "A"},
+                {"id": 4, "name": "Só espalha fake news", "alias": "C"}
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Como você reagiria a uma grande manifestação contra seu governo?",
+            "options": [
+                {"id": 1, "name": "Chamaria para diálogo", "alias": "B"},
+                {"id": 2, "name": "Mandaria reprimir", "alias": "C"},
+                {"id": 3, "name": "Daria uma resposta institucional", "alias": "D"},
+                {"id": 4, "name": "Diria que é coisa da oposição", "alias": "A"}
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Qual seu posicionamento sobre políticas sociais?",
+            "options": [
+                {"id": 1, "name": "Devem ser equilibradas com a responsabilidade fiscal", "alias": "D"},
+                {"id": 2, "name": "Acredito que devem ser prioridade", "alias": "A"},
+                {"id": 3, "name": "São secundárias frente à economia", "alias": "C"},
+                {"id": 4, "name": "Precisam de eficiência e fiscalização", "alias": "B"}
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Se pudesse aprovar uma grande reforma, qual seria?",
+            "options": [
+                {"id": 1, "name": "Uma reforma tributária", "alias": "D"},
+                {"id": 2, "name": "Uma reforma política", "alias": "A"},
+                {"id": 3, "name": "Uma reforma administrativa", "alias": "B"},
+                {"id": 4, "name": "Uma reforma do judiciário", "alias": "C"}
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Qual o papel do Estado na economia?",
+            "options": [
+                {"id": 1, "name": "Tem que controlar setores estratégicos", "alias": "C"},
+                {"id": 2, "name": "Deve equilibrar regulação e livre mercado", "alias": "D"},
+                {"id": 3, "name": "Precisa ser reduzido para melhorar o mercado", "alias": "B"},
+                {"id": 4, "name": "Deve regular e intervir sempre que necessário", "alias": "A"}
+            ]
+        },
+        {
+            "id": 12,
+            "question": "O que você faria em relação à educação?",
+            "options": [
+                {"id": 1, "name": "Incentivaria inovação e tecnologia", "alias": "D"},
+                {"id": 2, "name": "Expandiria o investimento público", "alias": "A"},
+                {"id": 3, "name": "Criaria parcerias com o setor privado", "alias": "B"},
+                {"id": 4, "name": "Focaria na disciplina e valores tradicionais", "alias": "C"}
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Qual sua opinião sobre alianças políticas?",
+            "options": [
+                {"id": 1, "name": "Devem ser evitadas ao máximo", "alias": "C"},
+                {"id": 2, "name": "São parte do jogo democrático", "alias": "D"},
+                {"id": 3, "name": "São necessárias para governar", "alias": "A"},
+                {"id": 4, "name": "Só aceito alianças estratégicas", "alias": "B"}
+            ]
+        }
+    ],
+    
+    "results": {
+        "A": {
+            "description": "Esquerda Progressista/Social-democrata",
+            "images": [
+                "./assets/imgs/lula.jpeg", "./assets/imgs/tabata.jpg"
+            ],
+            "details": "Essa posição defende maior intervenção do Estado na economia, políticas sociais expansivas e uma forte ênfase na igualdade de direitos. Também preza por direitos civis e avanços sociais."
+        },
+        "B": {
+            "description": "Direita Liberal/Conservadora",
+            "images": ["./assets/imgs/tarcisio.jpeg", "./assets/imgs/kim.jpeg"],
+            "details": "Essa posição valoriza a liberdade econômica, um Estado menor e princípios conservadores em temas sociais e culturais. Defende a iniciativa privada e a redução da burocracia governamental."
+        },
+        "C": {
+            "description": "Autoritarismo Nacionalista",
+            "images": ["./assets/imgs/medici.jpg", "./assets/imgs/vargas.jpeg"],
+            "details": "Essa visão política enfatiza um governo forte e centralizado, priorizando a ordem, a segurança e o nacionalismo acima de valores democráticos tradicionais. Possui viés autoritário e rejeita pluralismo político."
+        },
+        "D": {
+            "description": "Centro Liberal/Social-liberal",
+            "images": ["./assets/imgs/fhc.jpeg", "./assets/imgs/ciro.jpg"],
+            "details": "Essa posição combina aspectos do liberalismo econômico com políticas sociais moderadas, buscando um equilíbrio entre eficiência e equidade. Defende o diálogo e a negociação como pilares da governabilidade."
+        }
+    }
+}
