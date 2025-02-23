@@ -1,6 +1,7 @@
 <div class="quizz-container">
     <div class="quizz-header">
         <div class="quizz-logo">
+            <a class="github-btn" href="https://github.com/Alekssandher/angular-quiz" target="_blank">🐙 GitHub</a>
             <h1>{{title}}</h1>
             <button class="restart-btn" (click)="restartQuiz()">🔄 Recomeçar</button>
         </div>
@@ -9,7 +10,9 @@
     <div class="quizz-disclaimer">
         <p><strong>Aviso:</strong> Este teste é apenas para fins de entretenimento e não representa uma análise política científica. As classificações são aproximadas e não devem ser interpretadas como um rótulo definitivo.</p>
     </div>
-
+    <div class="progress-bar">
+        <div class="progress" [style.width.%]="progress"></div>
+    </div>
     <div class="quizz-questions" *ngIf=!finished>
         <h3>{{questionSelected.question}}</h3>
     </div>

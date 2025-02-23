@@ -21,9 +21,15 @@ export class QuizzComponent implements OnInit{
   finished: boolean = false
 
   result: string = ''
+
+  progress = 0
+
+  
   constructor() {}
 
   ngOnInit(): void {
+
+    
     if(json) {
       this.finished = false
       this.title = json.title
@@ -42,6 +48,7 @@ export class QuizzComponent implements OnInit{
     }
     return arr;
   }
+  
   playerChoice(alias: string){
     this.answers.push(alias)
 
@@ -51,8 +58,9 @@ export class QuizzComponent implements OnInit{
 
   async nextStep()
   {
-    this.questionIndex += 1
 
+    this.questionIndex += 1
+    this.updateProgress()
     if(this.questionMaxIndex > this.questionIndex)
     {
       this.questionSelected = this.questions[this.questionIndex]
@@ -92,6 +100,12 @@ export class QuizzComponent implements OnInit{
   }
   restartQuiz() {
     location.reload() 
-}
+  }
+
+  updateProgress() {
+    const totalQuestions: number = this.questions.length
+    this.progress = (this.questionIndex / totalQuestions) * 100;
+  
+  }
 
 }

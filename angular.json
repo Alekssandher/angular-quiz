@@ -16,6 +16,7 @@
             "outputPath": "dist/angular-quiz",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            
             "polyfills": [
               "zone.js"
             ],
@@ -89,6 +90,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
