@@ -43,8 +43,4 @@ O projeto estará disponível em **http://localhost:4200**
 ## 📜 Licença  
 Este projeto é de código aberto e pode ser utilizado livremente.  
 
-📌 **Autor:** [Seu Nome](https://github.com/Alekssandher)  
-
----
-
-Se quiser adicionar imagens ou links, é só editar conforme necessário! 😃 🚀
+📌 **Autor:** [Alekssandher](https://github.com/Alekssandher)  
