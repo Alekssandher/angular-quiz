@@ -10,14 +10,24 @@
     <div class="quizz-disclaimer">
         <p><strong>Aviso:</strong> Este teste é apenas para fins de entretenimento e não representa uma análise política científica. As classificações são aproximadas e não devem ser interpretadas como um rótulo definitivo.</p>
     </div>
-    <div class="progress-bar">
+
+    <div class="quizz-start" *ngIf="!started && !finished">
+        <div class="start-content">
+            <h2>Bem-vindo ao Quiz</h2>
+            <p>Descubra seu resultado respondendo às nossas perguntas.</p>
+            <button class="start-btn" (click)="startQuiz()">Iniciar Quiz</button>
+        </div>
+    </div>
+
+    <div class="progress-bar" *ngIf="started && !finished">
         <div class="progress" [style.width.%]="progress"></div>
     </div>
-    <div class="quizz-questions" *ngIf=!finished>
+
+    <div class="quizz-questions" *ngIf="started && !finished">
         <h3>{{questionSelected.question}}</h3>
     </div>
 
-    <div class="quizz-options" *ngIf=!finished>
+    <div class="quizz-options" *ngIf="started && !finished">
         <button class="btn-option"
             *ngFor="let option of questionSelected.options; let i = index;"
             (click)="playerChoice(option.alias)"
@@ -26,7 +36,7 @@
         </button>
     </div>
 
-    <div *ngIf=finished class="quizz-result">
+    <div *ngIf="finished" class="quizz-result">
         <h1>O seu resultado é:</h1>
         <p>{{result}}</p>
         <div class="img-box">

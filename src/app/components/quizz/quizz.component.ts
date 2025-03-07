@@ -1,6 +1,6 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import  json from '../../../../public/assets/data/questions.json'
+import json from '../../../../public/assets/data/questions.json'
 @Component({
   selector: 'app-quizz',
   imports: [NgIf, NgFor],
@@ -19,6 +19,7 @@ export class QuizzComponent implements OnInit{
   questionMaxIndex: number = 0
   images:string[] = []
   finished: boolean = false
+  started: boolean = false  // Nova variável para controlar se o quiz foi iniciado
 
   result: string = ''
 
@@ -28,10 +29,9 @@ export class QuizzComponent implements OnInit{
   constructor() {}
 
   ngOnInit(): void {
-
-    
     if(json) {
       this.finished = false
+      this.started = false  // Inicializando como falso
       this.title = json.title
       this.questions = this.shuffleArray(json.questions)
       this.questionSelected = this.questions[this.questionIndex]
@@ -41,6 +41,7 @@ export class QuizzComponent implements OnInit{
     }
     else this.finished = true
   }
+
   private shuffleArray(arr: any) {
     for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -49,6 +50,11 @@ export class QuizzComponent implements OnInit{
     return arr;
   }
   
+  // Método para iniciar o quiz
+  startQuiz() {
+    this.started = true;
+  }
+
   playerChoice(alias: string){
     this.answers.push(alias)
 
@@ -58,7 +64,6 @@ export class QuizzComponent implements OnInit{
 
   async nextStep()
   {
-
     this.questionIndex += 1
     this.updateProgress()
     if(this.questionMaxIndex > this.questionIndex)
@@ -77,12 +82,10 @@ export class QuizzComponent implements OnInit{
       this.result = this.answerSelected
       this.detail = result.details
       this.images = result.images
-
     }
   }
 
   async checkResult(answers: string[]) {
-
     const result = answers.reduce((previous, current, i, arr) => {
       if( 
         arr.filter(item => item === previous).length > 
@@ -98,6 +101,7 @@ export class QuizzComponent implements OnInit{
 
     return result;
   }
+
   restartQuiz() {
     location.reload() 
   }
@@ -105,7 +109,5 @@ export class QuizzComponent implements OnInit{
   updateProgress() {
     const totalQuestions: number = this.questions.length
     this.progress = (this.questionIndex / totalQuestions) * 100;
-  
   }
-
 }

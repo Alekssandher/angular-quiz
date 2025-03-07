@@ -1,160 +1,166 @@
 {
-    "title": "Qual o seu espectro político?",
+    "title": "Qual imperador romano você seria?",
     "questions": [
-        {
-            "id": 1,
-            "question": "Como você lida com críticas?",
-            "options": [
-                {"id": 1, "name": "Rebato com argumentos", "alias": "B"},
-                {"id": 2, "name": "Transformo em discurso político", "alias": "D"},
-                {"id": 3, "name": "Ignoro e sigo em frente", "alias": "A"},
-                {"id": 4, "name": "Uso ironia e humor", "alias": "C"}
-            ]
-        },
-        {
-            "id": 2,
-            "question": "Qual seu estilo de liderança?",
-            "options": [
-                {"id": 1, "name": "Autoritário e direto", "alias": "C"},
-                {"id": 2, "name": "Conciliador e diplomático", "alias": "D"},
-                {"id": 3, "name": "Técnico e analítico", "alias": "B"},
-                {"id": 4, "name": "Carismático e popular", "alias": "A"}
-            ]
-        },
-        {
-            "id": 3,
-            "question": "Como você se comunica com o público?",
-            "options": [
-                {"id": 1, "name": "Em discursos inflamados", "alias": "C"},
-                {"id": 2, "name": "Nas redes sociais", "alias": "A"},
-                {"id": 3, "name": "Por meio de decisões e ações", "alias": "D"},
-                {"id": 4, "name": "Por entrevistas e debates", "alias": "B"}
-            ]
-        },
-        {
-            "id": 4,
-            "question": "O que você considera mais importante na política?",
-            "options": [
-                {"id": 1, "name": "Negociar para governar", "alias": "D"},
-                {"id": 2, "name": "Manter o apoio popular", "alias": "A"},
-                {"id": 3, "name": "Seguir a Constituição e as leis", "alias": "B"},
-                {"id": 4, "name": "Combater adversários", "alias": "C"}
-            ]
-        },
-        {
-            "id": 5,
-            "question": "Como você lidaria com um escândalo envolvendo seu governo?",
-            "options": [
-                {"id": 1, "name": "Demitiria envolvidos e seguiria governando", "alias": "D"},
-                {"id": 2, "name": "Negaria tudo", "alias": "A"},
-                {"id": 3, "name": "Abriria uma investigação oficial", "alias": "B"},
-                {"id": 4, "name": "Acusaria a oposição de conspiração", "alias": "C"}
-            ]
-        },
-        {
-            "id": 6,
-            "question": "Qual sua visão sobre economia?",
-            "options": [
-                {"id": 1, "name": "Acredito em equilíbrio entre mercado e Estado", "alias": "D"},
-                {"id": 2, "name": "Quero estatizar setores estratégicos", "alias": "C"},
-                {"id": 3, "name": "Apoio subsídios e programas sociais", "alias": "A"},
-                {"id": 4, "name": "Defendo reformas estruturais e privatizações", "alias": "B"}
-            ]
-        },
-        {
-            "id": 7,
-            "question": "O que você acha da imprensa?",
-            "options": [
-                {"id": 1, "name": "É essencial para a democracia", "alias": "D"},
-                {"id": 2, "name": "Um mal necessário", "alias": "B"},
-                {"id": 3, "name": "Precisa ser respeitada", "alias": "A"},
-                {"id": 4, "name": "Só espalha fake news", "alias": "C"}
-            ]
-        },
-        {
-            "id": 8,
-            "question": "Como você reagiria a uma grande manifestação contra seu governo?",
-            "options": [
-                {"id": 1, "name": "Chamaria para diálogo", "alias": "B"},
-                {"id": 2, "name": "Mandaria reprimir", "alias": "C"},
-                {"id": 3, "name": "Daria uma resposta institucional", "alias": "D"},
-                {"id": 4, "name": "Diria que é coisa da oposição", "alias": "A"}
-            ]
-        },
-        {
-            "id": 9,
-            "question": "Qual seu posicionamento sobre políticas sociais?",
-            "options": [
-                {"id": 1, "name": "Devem ser equilibradas com a responsabilidade fiscal", "alias": "D"},
-                {"id": 2, "name": "Acredito que devem ser prioridade", "alias": "A"},
-                {"id": 3, "name": "São secundárias frente à economia", "alias": "C"},
-                {"id": 4, "name": "Precisam de eficiência e fiscalização", "alias": "B"}
-            ]
-        },
-        {
-            "id": 10,
-            "question": "Se pudesse aprovar uma grande reforma, qual seria?",
-            "options": [
-                {"id": 1, "name": "Uma reforma tributária", "alias": "D"},
-                {"id": 2, "name": "Uma reforma política", "alias": "A"},
-                {"id": 3, "name": "Uma reforma administrativa", "alias": "B"},
-                {"id": 4, "name": "Uma reforma do judiciário", "alias": "C"}
-            ]
-        },
-        {
-            "id": 11,
-            "question": "Qual o papel do Estado na economia?",
-            "options": [
-                {"id": 1, "name": "Tem que controlar setores estratégicos", "alias": "C"},
-                {"id": 2, "name": "Deve equilibrar regulação e livre mercado", "alias": "D"},
-                {"id": 3, "name": "Precisa ser reduzido para melhorar o mercado", "alias": "B"},
-                {"id": 4, "name": "Deve regular e intervir sempre que necessário", "alias": "A"}
-            ]
-        },
-        {
-            "id": 12,
-            "question": "O que você faria em relação à educação?",
-            "options": [
-                {"id": 1, "name": "Incentivaria inovação e tecnologia", "alias": "D"},
-                {"id": 2, "name": "Expandiria o investimento público", "alias": "A"},
-                {"id": 3, "name": "Criaria parcerias com o setor privado", "alias": "B"},
-                {"id": 4, "name": "Focaria na disciplina e valores tradicionais", "alias": "C"}
-            ]
-        },
-        {
-            "id": 13,
-            "question": "Qual sua opinião sobre alianças políticas?",
-            "options": [
-                {"id": 1, "name": "Devem ser evitadas ao máximo", "alias": "C"},
-                {"id": 2, "name": "São parte do jogo democrático", "alias": "D"},
-                {"id": 3, "name": "São necessárias para governar", "alias": "A"},
-                {"id": 4, "name": "Só aceito alianças estratégicas", "alias": "B"}
-            ]
-        }
+      {
+        "id": 1,
+        "question": "Como você reage diante de crises no império?",
+        "options": [
+          {"id": 1, "name": "Planejo estratégias e mantenho a ordem com firmeza", "alias": "A"},
+          {"id": 2, "name": "Procuro conselhos e medito sobre a melhor decisão", "alias": "B"},
+          {"id": 3, "name": "Uso o espetáculo e a arte para desviar a atenção", "alias": "C"},
+          {"id": 4, "name": "Respondo de forma impulsiva, surpreendendo a todos", "alias": "D"}
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é o seu estilo de liderança?",
+        "options": [
+          {"id": 1, "name": "Lidero com equilíbrio, unindo força e diplomacia", "alias": "A"},
+          {"id": 2, "name": "Adoto uma postura reflexiva, ouvindo meus conselheiros", "alias": "B"},
+          {"id": 3, "name": "Prefiro uma liderança que valorize a criatividade e o drama", "alias": "C"},
+          {"id": 4, "name": "Minha liderança é marcada por decisões ousadas e imprevisíveis", "alias": "D"}
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Como você lida com o poder e a autoridade?",
+        "options": [
+          {"id": 1, "name": "Uso o poder de forma responsável para garantir a estabilidade", "alias": "A"},
+          {"id": 2, "name": "Vejo o poder como uma oportunidade para praticar a justiça", "alias": "B"},
+          {"id": 3, "name": "Encaro o poder como uma plataforma para expressar minha individualidade", "alias": "C"},
+          {"id": 4, "name": "O poder é uma ferramenta para realizar desejos sem limites", "alias": "D"}
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual a sua abordagem em relação à arte e cultura?",
+        "options": [
+          {"id": 1, "name": "Apoio a cultura que enriquece a sociedade, mantendo tradições", "alias": "A"},
+          {"id": 2, "name": "Acredito que a arte deve inspirar e elevar o espírito", "alias": "B"},
+          {"id": 3, "name": "Sou apaixonado pela grandiosidade e extravagância nas artes", "alias": "C"},
+          {"id": 4, "name": "A arte é um meio de expressar minha natureza imprevisível", "alias": "D"}
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você se relaciona com o Senado e a aristocracia?",
+        "options": [
+          {"id": 1, "name": "Respeito as tradições, mas mantenho o controle estratégico", "alias": "A"},
+          {"id": 2, "name": "Valorizo o debate e a sabedoria dos mais experientes", "alias": "B"},
+          {"id": 3, "name": "Desafiar a elite faz parte do meu estilo revolucionário", "alias": "C"},
+          {"id": 4, "name": "Ignoro as convenções, preferindo decisões unilaterais", "alias": "D"}
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é a sua postura em relação à religião?",
+        "options": [
+          {"id": 1, "name": "Promovo a religião tradicional como pilar da unidade", "alias": "A"},
+          {"id": 2, "name": "Procuro a harmonia entre crenças e a filosofia", "alias": "B"},
+          {"id": 3, "name": "Utilizo o culto à minha pessoa como expressão artística", "alias": "C"},
+          {"id": 4, "name": "Minha visão é ousada e, por vezes, desafiadora às convenções", "alias": "D"}
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Como você lida com a oposição e os desafios internos?",
+        "options": [
+          {"id": 1, "name": "Resolvo com firmeza e justiça, mantendo a ordem", "alias": "A"},
+          {"id": 2, "name": "Prefiro resolver conflitos através do diálogo e da reflexão", "alias": "B"},
+          {"id": 3, "name": "Transformo a oposição em um espetáculo para meu benefício", "alias": "C"},
+          {"id": 4, "name": "Reajo de forma imprevisível e, às vezes, extrema", "alias": "D"}
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Qual seria sua prioridade como imperador?",
+        "options": [
+          {"id": 1, "name": "Estabelecer uma era de paz e estabilidade", "alias": "A"},
+          {"id": 2, "name": "Promover a sabedoria e o bem-estar do povo", "alias": "B"},
+          {"id": 3, "name": "Deixar um legado cultural e artístico inesquecível", "alias": "C"},
+          {"id": 4, "name": "Exercer meu poder sem restrições", "alias": "D"}
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Como você lida com as finanças do império?",
+        "options": [
+          {"id": 1, "name": "Gerencio com prudência, assegurando recursos para o futuro", "alias": "A"},
+          {"id": 2, "name": "Invisto em áreas que promovem o bem-estar coletivo", "alias": "B"},
+          {"id": 3, "name": "Financio grandes espetáculos e obras grandiosas", "alias": "C"},
+          {"id": 4, "name": "Gasto sem limites para afirmar minha presença", "alias": "D"}
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Como você gostaria de ser lembrado pela história?",
+        "options": [
+          {"id": 1, "name": "Como um líder que trouxe paz e prosperidade", "alias": "A"},
+          {"id": 2, "name": "Como um imperador filósofo e justo", "alias": "B"},
+          {"id": 3, "name": "Como uma figura polêmica e apaixonada pela arte", "alias": "C"},
+          {"id": 4, "name": "Como um governante excêntrico e imprevisível", "alias": "D"}
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Como você lida com a fama e o seu legado pessoal?",
+        "options": [
+          {"id": 1, "name": "Cuido para que minha liderança seja lembrada pela estabilidade", "alias": "A"},
+          {"id": 2, "name": "Procuro que minhas ações sirvam de exemplo de virtude", "alias": "B"},
+          {"id": 3, "name": "Abraço a fama e a criatividade, mesmo que controversa", "alias": "C"},
+          {"id": 4, "name": "Minha marca é a imprevisibilidade e o espetáculo", "alias": "D"}
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Qual seria sua estratégia em tempos de guerra?",
+        "options": [
+          {"id": 1, "name": "Planejar e organizar exércitos para defender a paz", "alias": "A"},
+          {"id": 2, "name": "Liderar com coragem e buscar uma vitória justa", "alias": "B"},
+          {"id": 3, "name": "Usar a guerra para consolidar meu poder de forma dramática", "alias": "C"},
+          {"id": 4, "name": "Lançar campanhas surpreendentes e ousadas", "alias": "D"}
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Como você se vê como imperador?",
+        "options": [
+          {"id": 1, "name": "Um líder visionário que construiu as fundações do império", "alias": "A"},
+          {"id": 2, "name": "Um governante sábio que guiou o império com filosofia", "alias": "B"},
+          {"id": 3, "name": "Um imperador que deixou um legado artístico, mesmo com controvérsias", "alias": "C"},
+          {"id": 4, "name": "Um monarca cuja loucura e extravagância marcaram sua era", "alias": "D"}
+        ]
+      }
     ],
-    
     "results": {
-        "A": {
-            "description": "Esquerda Progressista/Social-democrata",
-            "images": [
-                "./assets/imgs/lula.jpeg", "./assets/imgs/tabata.jpg"
-            ],
-            "details": "Essa posição defende maior intervenção do Estado na economia, políticas sociais expansivas e uma forte ênfase na igualdade de direitos. Também preza por direitos civis e avanços sociais."
-        },
-        "B": {
-            "description": "Direita Liberal/Conservadora",
-            "images": ["./assets/imgs/tarcisio.jpeg", "./assets/imgs/kim.jpeg"],
-            "details": "Essa posição valoriza a liberdade econômica, um Estado menor e princípios conservadores em temas sociais e culturais. Defende a iniciativa privada e a redução da burocracia governamental."
-        },
-        "C": {
-            "description": "Autoritarismo Nacionalista",
-            "images": ["./assets/imgs/medici.jpg", "./assets/imgs/vargas.jpeg"],
-            "details": "Essa visão política enfatiza um governo forte e centralizado, priorizando a ordem, a segurança e o nacionalismo acima de valores democráticos tradicionais. Possui viés autoritário e rejeita pluralismo político."
-        },
-        "D": {
-            "description": "Centro Liberal/Social-liberal",
-            "images": ["./assets/imgs/fhc.jpeg", "./assets/imgs/ciro.jpg"],
-            "details": "Essa posição combina aspectos do liberalismo econômico com políticas sociais moderadas, buscando um equilíbrio entre eficiência e equidade. Defende o diálogo e a negociação como pilares da governabilidade."
-        }
+      "A": {
+        "description": "Governante Visionário e Estratégico",
+        "images": [
+          "./assets/imgs/augustus.jpeg"
+        ],
+        "details": "Você possui uma liderança pragmática e equilibrada, valorizando a estabilidade e as tradições, assim como o imperador Augusto, que lançou as bases do Império Romano."
+      },
+      "B": {
+        "description": "Imperador Filósofo e Justo",
+        "images": [
+          "./assets/imgs/aurelius.jpeg"
+        ],
+        "details": "Sua personalidade é marcada pela reflexão e pela busca da sabedoria, lembrando o imperador Marcus Aurelius, que governou com justiça e filosofia estoica."
+      },
+      "C": {
+        "description": "Imperador Artístico e Controverso",
+        "images": [
+          "./assets/imgs/nero.jpg"
+        ],
+        "details": "Você tem uma veia dramática e uma paixão pela arte, assim como Nero, cuja gestão ficou marcada por um legado cultural intenso e polêmico."
+      },
+      "D": {
+        "description": "Líder Excêntrico e Imprevisível",
+        "images": [
+          "./assets/imgs/caligula.jpeg"
+        ],
+        "details": "Seu estilo é único e impulsivo, refletindo as atitudes ousadas e imprevisíveis de Calígula, um imperador que desafiou as convenções de sua época."
+      }
     }
-}
+  }
+  
